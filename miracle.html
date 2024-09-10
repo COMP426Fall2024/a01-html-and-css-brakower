@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miracle on Ice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>The Miracle on Ice</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="miracle.html">Miracle on Ice</a></li>
+                <li><a href="reception.html">Immaculate Reception</a></li>
+                <li><a href="jordan.html">Jordan's Flu Game</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img src="images/miracle-on-ice.jpeg" alt="Miracle on Ice">
+        <p><b>The Miracle on Ice</b> refers to one of the greatest upsets in Olympic history, which occurred during the 1980 Winter Olympics in Lake Placid, New York. In the semi-final game, the underdog U.S. ice hockey team, comprised mostly of amateur players, faced off against the heavily favored Soviet Union team, which had dominated the sport for years. Despite the overwhelming odds, the U.S. team delivered a stunning performance, culminating in a 4-3 victory that shocked the world. Coach Herb Brooks’ team played with extraordinary grit and determination, embodying the spirit of American perseverance. This historic win not only secured the U.S. team's place in the finals but also inspired a nation, becoming a symbol of triumph against all odds and a defining moment in Olympic history.</p>
+
+        <div class="dropdown">
+            <label for="moment-select">Choose a moment here:</label>
+            <select id="moment-select" onchange="window.location.href=this.value;">
+                <option value="index.html">-- Select a Moment --</option>
+                <option value="miracle.html">Miracle on Ice</option>
+                <option value="reception.html">Immaculate Reception</option>
+                <option value="jordan.html">Jordan's Flu Game</option>
+            </select>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mythical Sports Moments</p>
+    </footer>
+</body>
+</html>

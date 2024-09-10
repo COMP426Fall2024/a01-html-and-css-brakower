@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immaculate Reception</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>The Immaculate Reception</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="miracle.html">Miracle on Ice</a></li>
+                <li><a href="reception.html">Immaculate Reception</a></li>
+                <li><a href="jordan.html">Jordan's Flu Game</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <img src="images/immaculate-reception.jpeg" alt="Immaculate Reception">
+        <div class="audio">
+            <audio controls>
+                <source src="images/immaculate-audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        <p><b>The Immaculate Reception</b> is one of the most iconic and debated plays in NFL history, occurring during a 1972 AFC Divisional playoff game between the Pittsburgh Steelers and the Oakland Raiders. With just 22 seconds left on the clock and the Steelers trailing by a score of 7-6, quarterback Terry Bradshaw’s desperation pass was deflected by a Raiders defender. In a stunning turn of events, the ball fell into the hands of running back Franco Harris, who managed to secure it and dash into the end zone for a game-winning touchdown. This miraculous play not only secured the Steelers' victory but also became a defining moment in their storied franchise history, symbolizing perseverance and a bit of football magic.</p>
+
+        <!-- Table with statistics -->
+        <table id="game-stats">
+            <caption>Immaculate Reception Game Statistics</caption>
+            <thead>
+                <tr>
+                    <th>Statistic</th>
+                    <th>Pittsburgh Steelers</th>
+                    <th>Oakland Raiders</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Final Score</td>
+                    <td>13</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Quarterback</td>
+                    <td>Terry Bradshaw</td>
+                    <td>Daryle Lamonica</td>
+                </tr>
+                <tr>
+                    <td>Key Player</td>
+                    <td>Franco Harris</td>
+                    <td>Jack Tatum</td>
+                </tr>
+                <tr>
+                    <td>Game Date</td>
+                    <td colspan="2">December 23, 1972</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div id="moment-dropdown">
+            <label for="moment-select">Choose a moment here:</label>
+            <select id="moment-select" onchange="window.location.href=this.value;">
+                <option value="index.html">-- Select a Moment --</option>
+                <option value="miracle.html">Miracle on Ice</option>
+                <option value="reception.html">Immaculate Reception</option>
+                <option value="jordan.html">Jordan's Flu Game</option>
+            </select>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mythical Sports Moments</p>
+    </footer>
+</body>
+</html>
